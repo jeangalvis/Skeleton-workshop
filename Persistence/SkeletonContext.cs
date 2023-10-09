@@ -9,5 +9,5 @@ public class SkeletonContext : DbContext
 
     }
     public DbSet<Product> Products { get; set; }
-    public DbSet<Warehouse> WareHouses { get; set; }
+    public DbSet<Warehouse> Warehouses { get; set; }
 }
